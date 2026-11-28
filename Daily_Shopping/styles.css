@@ -232,11 +232,14 @@ aside span {
   color: #fff;
   font-size: 1.1rem;
 }
-.px {
-  background: #e54a3f;
-}
-.cf {
-  background: #185ca8;
+.place-no {
+  width: 68px;
+  height: 68px;
+  display: grid;
+  place-items: center;
+  border-radius: 18px;
+  background-color: #fff;
+  object-fit: contain;
 }
 .store-head h3 {
   margin: 0;
